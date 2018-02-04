@@ -12,6 +12,8 @@
 		D0E57F932026B45200B11B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E57F912026B45200B11B1D /* Main.storyboard */; };
 		D0E57F952026B45200B11B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E57F942026B45200B11B1D /* Assets.xcassets */; };
 		D0E57F982026B45200B11B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E57F962026B45200B11B1D /* LaunchScreen.storyboard */; };
+		D0E57FA22026B5BB00B11B1D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E57FA12026B5BB00B11B1D /* FirstViewController.swift */; };
+		D0E57FA42026B5D900B11B1D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E57FA32026B5D900B11B1D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D0E57F942026B45200B11B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E57F972026B45200B11B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E57F992026B45200B11B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E57FA12026B5BB00B11B1D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D0E57FA32026B5D900B11B1D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		D0E57F8C2026B45200B11B1D /* Dependency Injection Example */ = {
 			isa = PBXGroup;
 			children = (
+				D0E57FA02026B58200B11B1D /* Storyboards */,
+				D0E57F9F2026B57300B11B1D /* ViewControllers */,
 				D0E57F8D2026B45200B11B1D /* AppDelegate.swift */,
 				D0E57F8F2026B45200B11B1D /* ViewController.swift */,
-				D0E57F912026B45200B11B1D /* Main.storyboard */,
 				D0E57F942026B45200B11B1D /* Assets.xcassets */,
 				D0E57F962026B45200B11B1D /* LaunchScreen.storyboard */,
 				D0E57F992026B45200B11B1D /* Info.plist */,
 			);
 			path = "Dependency Injection Example";
+			sourceTree = "<group>";
+		};
+		D0E57F9F2026B57300B11B1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E57FA12026B5BB00B11B1D /* FirstViewController.swift */,
+				D0E57FA32026B5D900B11B1D /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D0E57FA02026B58200B11B1D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D0E57F912026B45200B11B1D /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E57FA42026B5D900B11B1D /* SecondViewController.swift in Sources */,
+				D0E57FA22026B5BB00B11B1D /* FirstViewController.swift in Sources */,
 				D0E57F902026B45200B11B1D /* ViewController.swift in Sources */,
 				D0E57F8E2026B45200B11B1D /* AppDelegate.swift in Sources */,
 			);
